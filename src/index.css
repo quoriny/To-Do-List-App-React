@@ -16,6 +16,12 @@ body {
   margin-top: 4rem;
 }
 
+#copyright {
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+
 #form-container {
   width: 100%;
 
