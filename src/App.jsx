@@ -41,6 +41,8 @@ function App(){
         <div id='container'>
             <h1 id="heading">To-Do List App</h1>
 
+            <p>&copy; {new Date.new().getFullYear()} Made by Rune Evada.</p>
+
             <div id="form-container">
                 <input id="input-task" value={newTask} onChange={handleInputChange} type="text" placeholder="Enter a task..."/>
                 <button onClick={AddTask} id="submit-button">Add</button>
